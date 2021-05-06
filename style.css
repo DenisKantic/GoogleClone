@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;  
+    margin: 20px 30px;
+}
+
+a{
+    margin-left: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+.center-part{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    object-fit: contain;
+    margin-top: 1%;
+    height: 90px;
+}
+
+.search-part{
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    width: 45vw;
+}
+
+.search-bar{
+    width: 45vw;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.search-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn1, .btn2{
+    margin-top: 25px;
+    height: 38px;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 7px;
+    outline: none;
+    background: rgba(247, 246, 246, 0.712);
+    border: none;
+    padding: 5px;
+}
+
+.btn2{
+    margin-left: 15px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid rgba(194, 194, 194, 0.637);
+}
+
+.languages{
+    width:45vw;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.first-item{
+    color: black;
+}
+
+
+ul>li a{
+    color: blue;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: gray;
+    height: 14vh;
+    display: flex;
+    width: 100%;
+}
+
+h2{
+    margin: 10px 10px;
+}
+
+.first-list{
+    display: flex;
+}
