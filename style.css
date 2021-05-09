@@ -118,3 +118,8 @@ h2{
 .first-list{
     display: flex;
 }
+
+.homeLink:hover, .advancedLink:hover, .imagesLink:hover{
+    text-decoration: underline;
+}
+
