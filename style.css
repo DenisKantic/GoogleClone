@@ -19,6 +19,10 @@ header{
     margin: 20px 30px;
 }
 
+.imagesLink, .advancedLink, .homeLink{
+    font-size: 13px;
+}
+
 a{
     margin-left: 15px;
     font-size: 15px;
@@ -67,22 +71,22 @@ img{
 
 .btn1, .btn2{
     margin-top: 25px;
-    height: 38px;
-    width: 140px;
     font-size: 14px;
     border-radius: 7px;
     outline: none;
-    background: rgba(247, 246, 246, 0.712);
-    border: none;
-    padding: 5px;
+    background: rgba(247, 246, 246, 0.521);
+    border: 1px solid white;
+    padding: 10px;
+    color: black;
 }
 
 .btn2{
     margin-left: 15px;
 }
 
-input[type="submit"]:hover{
+.btn1:hover, .btn2:hover{
     border: 1px solid rgba(194, 194, 194, 0.637);
+    display: inline-block;
 }
 
 .languages{
