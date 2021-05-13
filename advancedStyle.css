@@ -9,16 +9,21 @@
 
 body{
     min-height: 100vh;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .imagesLink, .homeLink{
     font-size: 13px;
+    float: right;
+    outline: none;
 }
 img{
     margin: 20px;
     object-fit: contain;
     height: 25px;
+    position: absolute;
 }
 
 .advancedHeader{
@@ -27,6 +32,7 @@ img{
     color: red;
     font-weight: 300;
 }
+
 
 .bottomLine{
     height: 1px;
@@ -41,7 +47,7 @@ img{
 
 .centerPart{
     width: 95%;
-    height: 500px;
+    height: 300px;
     margin: 50px auto;
 }
 
@@ -89,5 +95,63 @@ a{
 }
 
 .homeLink:hover, .advancedLink:hover, .imagesLink:hover{
+    text-decoration: underline;
+}
+
+.footerBosnia{
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+}
+
+
+.footerBosnia{
+    height: 50px;
+    background-color: rgba(211, 211, 211, 0.397);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.bosniaTitle{
+    font-size: 17px;
+    line-height: 50px;
+    margin-left: 30px;
+    color: rgba(31, 31, 31, 0.651);
+}
+
+.lastFooter{
+    height: 50px;
+    background-color: rgba(211, 211, 211, 0.397);
+    overflow: hidden;
+}
+
+.leftside{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.leftside li{
+    margin-left: 13px;
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.leftside a{
+    font-size: 15px;
+    color: rgba(31, 31, 31, 0.651);
+}
+
+.rightside{
+    margin-right: 30px;
+}
+
+.rightside a{
+    color: rgba(31, 31, 31, 0.651);
+}
+
+li>a:hover{
     text-decoration: underline;
 }
