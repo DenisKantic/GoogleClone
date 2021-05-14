@@ -155,3 +155,22 @@ a{
 li>a:hover{
     text-decoration: underline;
 }
+
+.advancedBtn{
+    height: 30px;
+    line-height: 5px;
+    width: 120px;
+    position: relative;
+    left: 49%;
+    margin: 20px;
+    background-color: #4d90fe;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.advancedBtn:hover{
+    background-color: #76a9fa;
+}
