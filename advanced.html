@@ -28,27 +28,29 @@
 
 
 
-        <form action="https://www.google.com/advanced_search?hl=en-BA&fg=1">
+        <form action="https://www.google.com/search">
 
             <label>all these words:</label>
-            <input type="text">
+            <input type="text" name="as_q">
         
             <p>Type the important words: tri-colour rat terrier</p> 
             <br>
 
             <label>this exact word or phrase:</label>
-            <input type="text">
+            <input type="text" name="as_epq">
             <p>Put exact words in quotes: "rat terrier"</p>
             <br>
 
             <label>any of these words:</label>
-            <input type="text">
+            <input type="text" name="as_oq">
             <p>Type OR between all the words you want: miniature OR standard</p>
             <br>
 
             <label>none of these words:</label>
-            <input type="text">
+            <input type="text" name="as_eq">
             <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+
+            <input type="submit" value="Advanced Search">
         </form>
     </div>
 
