@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .25px;
 }
 
 body{
@@ -14,11 +15,36 @@ body{
 }
 
 
+header{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin: 20px 30px;
+}
+
 .imagesLink, .homeLink{
     font-size: 13px;
-    float: right;
-    outline: none;
 }
+
+.loginBtn{
+    font-size: 15px;
+    height: 35px;
+    width: 80px;
+    background-color: #4d90fe;
+    text-align: center;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: .25px;
+    border-radius: 5px;
+}
+
+.loginBtn:hover{
+    background-color: #76a9fa;
+}
+
 img{
     margin: 20px;
     object-fit: contain;
