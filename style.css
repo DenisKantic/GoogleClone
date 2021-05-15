@@ -36,6 +36,11 @@ header{
     border-radius: 5px;
 }
 
+
+.loginBtn:hover{
+    background-color: #76a9fa;
+}
+
 .imagesLink, .advancedLink, .homeLink{
     font-size: 13px;
 }
