@@ -198,3 +198,32 @@ h2{
 li>a:hover{
     text-decoration: underline;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+
+    .imagesLink, .advancedLink, .homeLink, .loginBtn{
+        font-size: 10px;
+    }
+
+    .loginBtn{
+        height: 25px;
+        width: 50px;
+    }
+
+    img{
+        height: 30px;
+    }
+
+    .search-part{
+        justify-content: center;
+    }
+
+    .search-bar{
+        width: 270px;
+        font-size: 12px;
+        padding: 15px;
+        height: 30px;
+    }
+
+}
