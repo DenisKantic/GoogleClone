@@ -303,3 +303,19 @@ li>a:hover{
         font-size: 9px;
     }
 }
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+
+
+    .search-part{
+        justify-content: center;
+    }
+
+    .search-bar{
+        width: 500px;
+    }
+
+    .languages{
+        width: 500px;
+    }
+}
+
